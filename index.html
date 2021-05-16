@@ -1,0 +1,27 @@
+<meta content="text/html;charset=utf-8" http-equiv="Content-Type">
+<meta content="utf-8" http-equiv="encoding">
+<!DOCTYPE html>
+<style>
+    body{
+        background-color: silver;
+    }
+    .Main-Title{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 20px;
+        color:firebrick;
+    }
+</style>
+<html>
+    <head>
+        <title>Simple Roman Converter</title>
+    </head>
+<body>
+     <script type = "text/javascript" src = "app.js" ></script>
+        <h1 class="Main-Title">Convert to Roman</h1>
+        <form name="myform" action="" method="GET" >
+            <input type="text" id="num" name="num"  value="" onchange="convertToRoman();" placeholder="Enter Number">
+            <br><br>
+            <input type="text" id="op" name ="op" value="" onchange="convertToNumber();" placeholder="Roman Form">
+         </form>
+    </body>
+</html>
